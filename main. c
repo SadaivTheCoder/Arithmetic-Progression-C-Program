@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int i, n, d, a;
+
+    // Taking input from the user
+    printf("Enter the number of terms (n): ");
+    scanf("%d", &n);
+
+    printf("Enter the common difference (d): ");
+    scanf("%d", &d);
+
+    printf("Enter the first term (a): ");
+    scanf("%d", &a);
+
+    printf("Arithmetic Progression: ");
+
+    // Loop to print the AP series
+    for (i = 1; i <= n; i++) {
+        printf("%d", a);
+
+        // Print comma after every term except the last term
+        if (i < n) {
+            printf(", ");
+        }
+
+        // Move to the next term
+        a += d;
+    }
+
+    return 0;
+}
