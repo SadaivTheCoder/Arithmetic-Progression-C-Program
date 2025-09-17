@@ -23,4 +23,3 @@ This is a simple C program that prints an Arithmetic Progression (A.P.) based on
 ### Author
 
 Made by "Sadaiv raj keshri" as a part of C programming practice.
-
